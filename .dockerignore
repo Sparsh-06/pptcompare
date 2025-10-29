@@ -1,0 +1,53 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git files
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Development files
+.env
+.env.local
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Reports and uploads (will be created at runtime)
+reports/*
+uploads/*
+
+# Keep the directories but ignore contents
+!reports/.gitkeep
+!uploads/.gitkeep
